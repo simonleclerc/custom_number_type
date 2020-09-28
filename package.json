@@ -1,0 +1,21 @@
+{
+  "name": "custom_number_type",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/simonleclerc/custom_number_type.git",
+  "author": "Simon LE CLERC <simon@gojob.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint . --ext .ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "jest": "^26.4.2",
+    "prettier": "^2.1.2",
+    "ts-jest": "^26.4.0",
+    "typescript": "^4.0.3"
+  }
+}
