@@ -1,9 +1,9 @@
 import { increment } from './increment';
 
 describe('increment', () => {
-  it('should be true', () => {
-    const result = increment();
+  it('return the number', () => {
+    const result = increment(['9','0','1']);
 
-    expect(result).toEqual(true);
+    expect(result).toEqual(901);
   });
 });
